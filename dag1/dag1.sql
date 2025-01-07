@@ -1,0 +1,21 @@
+
+CREATE DATABASE Football;
+
+USE Football;
+
+SHOW TABLES;
+
+CREATE TABLE Clubs (
+	id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	name VARCHAR(200) NOT NULL
+);
+
+SELECT * FROM Clubs;
+
+INSERT INTO Clubs (
+	name
+) VALUES (
+	'Maglasäte IF'
+);
+
+

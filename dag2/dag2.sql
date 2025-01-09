@@ -100,4 +100,4 @@ INSERT INTO Contacts (
 -- Visa alla kontakter
 SELECT * FROM Contacts;
 
-
+SHOW TABLES;
